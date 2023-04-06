@@ -28,6 +28,7 @@ body {
     color: var(--text-color);
 }
 
+
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -455,22 +456,25 @@ section.contact form textarea {
 }
 
 footer{
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
+    padding: 5rem;
 }
-footer .container {
+
+footer .footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-footer .container ul {
+footer .footer-container ul {
     display: flex;
     gap: 3rem;
 
 }
-footer .container ul a {
+footer .footer-container a {
     color: var(--bg-color);
     transition: var(--transition);
+    text-decoration: none;
 }
-footer .container ul a:hover {
-    color: var(--main-color);
+footer .footer-container ul a:hover {
+    color: var(--text-color);
 } 
