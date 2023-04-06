@@ -204,3 +204,25 @@ span {
     text-align: center;
     border: .2rem solid var(--bg-color);
 }
+
+.events-container .events-box:hover {
+    border-color:var(--main-color) ;
+    transform: scale(1.02);
+    
+
+}
+
+.events-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.events-box h3 {
+    font-size: 2.6rem ;
+
+}
+
+.events-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
