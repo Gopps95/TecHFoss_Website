@@ -31,6 +31,12 @@ body {
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
+    overflow: hidden;
+}
+section h1{
+    text-align: center;
+    display: block;
+    margin-bottom: 5rem;
 }
 header {
     font-size: 18px;
@@ -41,7 +47,10 @@ header {
     top: 0;
     width: 100%;
 }
-
+.container{
+    width:80%;
+    margin:0 auto;
+}
 header .inner-wrap {
     max-width: 1280px;
     height: 60px;
@@ -440,3 +449,24 @@ section.contact form .btn:hover {
 section.contact form textarea {
     height: 10rem;
 }
+
+footer{
+    padding-top: 5rem;
+}
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container ul {
+    display: flex;
+    gap: 3rem;
+
+}
+footer .container ul a {
+    color: var(--bg-color);
+    transition: var(--transition);
+}
+footer .container ul a:hover {
+    color: var(--main-color);
+} 
