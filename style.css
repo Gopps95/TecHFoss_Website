@@ -39,6 +39,8 @@ section h1{
     margin-bottom: 5rem;
 }
 header {
+    position: relative;
+    z-index: 1;
     font-size: 18px;
     color: #fff;
     background-color: var(--bg-color);
@@ -52,6 +54,8 @@ header {
     margin:0 auto;
 }
 header .inner-wrap {
+    position: relative;
+    z-index: 1;
     max-width: 1280px;
     height: 60px;
     display: flex;
