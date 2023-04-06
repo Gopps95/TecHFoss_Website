@@ -46,6 +46,11 @@ section {
     z-index: 100;
 }
 
+.header a, .header a:hover{
+    text-decoration: none;
+    color: var(--text-color);
+} 
+
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
@@ -58,6 +63,7 @@ section {
     color: var(--text-color);
     margin-left: 4rem;
     transition: 0.5s ease;
+    text-decoration: none;
     
 }
 
@@ -71,15 +77,16 @@ section {
 
 .navbar a.active {
     color: var(--main-color);
-    
 }
 
 .home {
     background-color: var(--bg-color) ;
     color: var(--text-color);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding: 2rem 15%;
 }
 
 .home-content h1 {
@@ -126,19 +133,21 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.5s ease;
+    text-decoration: none;
 }
 
 .socials a:hover {
     background-color: var(--main-color);
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
+    text-decoration: none;
 }
 
 .home-logo img {
     width: 35;
 }
 
-.btna {
+.button {
     text-decoration: none;
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -152,7 +161,8 @@ span {
     transition: 0.5s ease;
 }
 
-.btna:hover {
+.button:hover {
+    color: var(--second-bg-color);
     text-decoration: none;
     box-shadow: none;
 }
@@ -219,9 +229,7 @@ span {
 
 .events-container .events-box:hover {
     border-color:var(--main-color) ;
-    transform: scale(1.02);
-    
-
+    transform: scale(1.05);
 }
 
 .events-box i {
