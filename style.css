@@ -188,7 +188,19 @@ section .maxheight{
     line-height: 56px;
     color: #fff;
 }
-
+#hero .hero-img{
+    position: relative;
+    
+}
+.logoimg{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.mainlogo{
+    width: 100%;
+    height: 50%;
+}
 #hero h2 {
     color: var(--main-color);
     margin-bottom: 50px;
@@ -239,24 +251,6 @@ section .maxheight{
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (max-width: 991px) {
-    #hero {
-        height: 100vh;
-        text-align: center;
-    }
-
-    #hero .animated {
-        animation: none;
-    }
-
-    #hero .hero-img {
-        text-align: center;
-    }
-
-    #hero .hero-img img {
-        width: 50%;
-    }
-}
 
 @media (max-width: 768px) {
     #hero h1 {
@@ -269,6 +263,10 @@ section .maxheight{
         line-height: 24px;
         margin-bottom: 30px;
     }
+    #hero .hero-img{
+        padding-left: 10px;
+     
+    }
 
     #hero .hero-img img {
         width: 70%;
@@ -278,6 +276,9 @@ section .maxheight{
 @media (max-width: 575px) {
     #hero .hero-img img {
         width: 80%;
+    }
+    #hero .hero-img{
+        margin-left: 10px;
     }
 
     #hero .btn-get-started {
