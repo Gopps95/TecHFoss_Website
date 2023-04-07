@@ -243,6 +243,9 @@ section .maxheight{
     height: 100%;
     width: 100%;
 }
+#hero .hero-img{
+    position: relative;
+}
 
 @media (max-width: 991px) {
     #hero {
@@ -256,6 +259,7 @@ section .maxheight{
 
     #hero .hero-img {
         text-align: center;
+        position: relative;
     }
 
     #hero .hero-img img {
