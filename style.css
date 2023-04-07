@@ -528,16 +528,7 @@ span {
 .card-body {
     padding: 1.25rem;
 }
-@media (max-width: 575px) {
-    .card-img{
-        height: fit-content;
-    }
-    .card{
-        margin: 25px;
-    }
 
-
-}
 
 .workshops-section p{
     font-size: 15px;
