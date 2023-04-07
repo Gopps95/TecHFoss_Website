@@ -28,9 +28,16 @@ body {
     color: var(--text-color);
 }
 
+
 section {
     
     padding: 10rem 9% 2rem;
+    overflow: hidden;
+}
+section h1{
+    text-align: center;
+    display: block;
+    margin-bottom: 5rem;
 }
 header {
     position: relative;
@@ -43,7 +50,10 @@ header {
     top: 0;
     width: 100%;
 }
-
+.container{
+    width:80%;
+    margin:0 auto;
+}
 header .inner-wrap {
     position: relative;
     z-index: 1;
@@ -536,3 +546,4 @@ span {
 .workshops-section h5 {
     font-size: 24px;
 }
+
